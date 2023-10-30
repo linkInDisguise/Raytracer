@@ -3,7 +3,7 @@ project(Raytracer)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Raytracer src/main.cpp)
+add_executable(Raytracer src/main.cpp src/Vec3.h src/Color.h)
 
 set(LIBRARY_NAME Raytracer)
 
